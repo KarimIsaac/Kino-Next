@@ -1,0 +1,47 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));}
+
+.formContainer h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.payButton {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.payButton:hover {
+  background-color: #00698C;
+}

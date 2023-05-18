@@ -1,0 +1,8 @@
+.utilites_link_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  gap: 20px;
+}
